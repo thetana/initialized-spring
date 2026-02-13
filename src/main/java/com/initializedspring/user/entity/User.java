@@ -35,7 +35,7 @@ public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
+//ㄴㅇㅁㄴㅁㅇ
     private String nickname; // 닉네임
     private String password;
     private String email;
