@@ -8,6 +8,8 @@ public class InitializedSpringApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(InitializedSpringApplication.class, args);
+
+        int abc = 2;
     } // 수정중qweqwe
 
 
