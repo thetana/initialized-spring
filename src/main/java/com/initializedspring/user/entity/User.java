@@ -28,4 +28,18 @@ public class User {
         this.phone = phone;
         this.address = address;
     }
+
+    public static User from(Request request){
+        return new User(
+                request.id,
+                request.nickname,
+                request.password,
+                request.email,
+                request.phone,
+                request.address,
+        );
+    }
+
+
+
 }
