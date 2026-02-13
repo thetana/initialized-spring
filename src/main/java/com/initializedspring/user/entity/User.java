@@ -14,4 +14,23 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    private Long longId;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    private String textText = "아";
 }
