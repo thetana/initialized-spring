@@ -11,4 +11,6 @@ public class InitializedSpringApplication {
         SpringApplication.run(InitializedSpringApplication.class, args);
     } // 수정중qweqwe
 
+
+
 }
