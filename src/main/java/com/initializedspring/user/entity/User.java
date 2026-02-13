@@ -10,8 +10,8 @@ import lombok.RequiredArgsConstructor;
 @Entity
 public class User {
 
-
-
+ㄴㅇㅁㄻㄴㅇㄹㄴㅁㅇㄹ
+ㅁㄴㅇㄻㄴㅇㄹ
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     @Id
@@ -37,12 +37,7 @@ public class User {
     private Long id;
 //ㄴㅇㅁㄴㅁㅇ
     private String nickname; // 닉네임
-    private String password;
-    private String email;
-    private String phone;
-    private String address;
-
-
+    private String password;ㅁㄴㅁㄴㅇㄹ
     public User(String nickname, String password, String email, String phone, String address) {
         this.nickname = nickname;
         this.password = password;
