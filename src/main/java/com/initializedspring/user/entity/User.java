@@ -70,4 +70,23 @@ public class User {
 
 
 
+    private Long longId;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    private String textText = "아";
 }
