@@ -50,7 +50,13 @@ public class User {
         this.phone = phone;
         this.address = address;
     }
-
+    public User(String nickname, String password, String email, String phone, String address) {
+        this.nickname = nickname;
+        this.password = password;
+        this.email = email;
+        this.phone = phone;
+        this.address = address;
+    }
     public static User from(Request request){
         return new User(
                 request.id,
